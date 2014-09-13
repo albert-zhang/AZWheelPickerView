@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27F2972819C469DD0026F76B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F2972719C469DD0026F76B /* Foundation.framework */; };
+		27F2972A19C469DD0026F76B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F2972919C469DD0026F76B /* CoreGraphics.framework */; };
+		27F2972C19C469DD0026F76B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F2972B19C469DD0026F76B /* UIKit.framework */; };
+		27F2973219C469DD0026F76B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27F2973019C469DD0026F76B /* InfoPlist.strings */; };
+		27F2973419C469DD0026F76B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F2973319C469DD0026F76B /* main.m */; };
+		27F2973819C469DD0026F76B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F2973719C469DD0026F76B /* AppDelegate.m */; };
+		27F2973B19C469DD0026F76B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 27F2973919C469DD0026F76B /* Main.storyboard */; };
+		27F2973E19C469DD0026F76B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F2973D19C469DD0026F76B /* ViewController.m */; };
+		27F2974019C469DD0026F76B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27F2973F19C469DD0026F76B /* Images.xcassets */; };
+		27F2974719C469DD0026F76B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F2974619C469DD0026F76B /* XCTest.framework */; };
+		27F2974819C469DD0026F76B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F2972719C469DD0026F76B /* Foundation.framework */; };
+		27F2974919C469DD0026F76B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27F2972B19C469DD0026F76B /* UIKit.framework */; };
+		27F2975119C469DD0026F76B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27F2974F19C469DD0026F76B /* InfoPlist.strings */; };
+		27F2975319C469DD0026F76B /* AZWheelPickerViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F2975219C469DD0026F76B /* AZWheelPickerViewTests.m */; };
+		27F2975E19C472040026F76B /* AZWheelPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F2975D19C472040026F76B /* AZWheelPickerView.m */; };
+		27F2975F19C472040026F76B /* AZWheelPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F2975D19C472040026F76B /* AZWheelPickerView.m */; };
+		27F2976219C478CB0026F76B /* wheel.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F2976019C478CB0026F76B /* wheel.png */; };
+		27F2976319C478CB0026F76B /* wheel.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F2976019C478CB0026F76B /* wheel.png */; };
+		27F2976419C478CB0026F76B /* wheel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F2976119C478CB0026F76B /* wheel@2x.png */; };
+		27F2976519C478CB0026F76B /* wheel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F2976119C478CB0026F76B /* wheel@2x.png */; };
+		27F2976819C47B500026F76B /* pointer.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F2976619C47B500026F76B /* pointer.png */; };
+		27F2976919C47B500026F76B /* pointer.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F2976619C47B500026F76B /* pointer.png */; };
+		27F2976A19C47B500026F76B /* pointer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F2976719C47B500026F76B /* pointer@2x.png */; };
+		27F2976B19C47B500026F76B /* pointer@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F2976719C47B500026F76B /* pointer@2x.png */; };
+		27F2977A19C481050026F76B /* AZBg.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F2977819C481050026F76B /* AZBg.png */; };
+		27F2977B19C481050026F76B /* AZBg.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F2977819C481050026F76B /* AZBg.png */; };
+		27F2977C19C481050026F76B /* AZBg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F2977919C481050026F76B /* AZBg@2x.png */; };
+		27F2977D19C481050026F76B /* AZBg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 27F2977919C481050026F76B /* AZBg@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		27F2974A19C469DD0026F76B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 27F2971C19C469DD0026F76B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 27F2972319C469DD0026F76B;
+			remoteInfo = AZWheelPickerView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		27F2972419C469DD0026F76B /* AZWheelPickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AZWheelPickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27F2972719C469DD0026F76B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		27F2972919C469DD0026F76B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		27F2972B19C469DD0026F76B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		27F2972F19C469DD0026F76B /* AZWheelPickerView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AZWheelPickerView-Info.plist"; sourceTree = "<group>"; };
+		27F2973119C469DD0026F76B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		27F2973319C469DD0026F76B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		27F2973519C469DD0026F76B /* AZWheelPickerView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AZWheelPickerView-Prefix.pch"; sourceTree = "<group>"; };
+		27F2973619C469DD0026F76B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		27F2973719C469DD0026F76B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		27F2973A19C469DD0026F76B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		27F2973C19C469DD0026F76B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		27F2973D19C469DD0026F76B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		27F2973F19C469DD0026F76B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		27F2974519C469DD0026F76B /* AZWheelPickerViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AZWheelPickerViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		27F2974619C469DD0026F76B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		27F2974E19C469DD0026F76B /* AZWheelPickerViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AZWheelPickerViewTests-Info.plist"; sourceTree = "<group>"; };
+		27F2975019C469DD0026F76B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		27F2975219C469DD0026F76B /* AZWheelPickerViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AZWheelPickerViewTests.m; sourceTree = "<group>"; };
+		27F2975C19C472040026F76B /* AZWheelPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AZWheelPickerView.h; sourceTree = "<group>"; };
+		27F2975D19C472040026F76B /* AZWheelPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AZWheelPickerView.m; sourceTree = "<group>"; };
+		27F2976019C478CB0026F76B /* wheel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wheel.png; sourceTree = "<group>"; };
+		27F2976119C478CB0026F76B /* wheel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wheel@2x.png"; sourceTree = "<group>"; };
+		27F2976619C47B500026F76B /* pointer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pointer.png; sourceTree = "<group>"; };
+		27F2976719C47B500026F76B /* pointer@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pointer@2x.png"; sourceTree = "<group>"; };
+		27F2977819C481050026F76B /* AZBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AZBg.png; sourceTree = "<group>"; };
+		27F2977919C481050026F76B /* AZBg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AZBg@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27F2972119C469DD0026F76B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27F2972A19C469DD0026F76B /* CoreGraphics.framework in Frameworks */,
+				27F2972C19C469DD0026F76B /* UIKit.framework in Frameworks */,
+				27F2972819C469DD0026F76B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27F2974219C469DD0026F76B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27F2974719C469DD0026F76B /* XCTest.framework in Frameworks */,
+				27F2974919C469DD0026F76B /* UIKit.framework in Frameworks */,
+				27F2974819C469DD0026F76B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27F2971B19C469DD0026F76B = {
+			isa = PBXGroup;
+			children = (
+				27F2975C19C472040026F76B /* AZWheelPickerView.h */,
+				27F2975D19C472040026F76B /* AZWheelPickerView.m */,
+				27F2972D19C469DD0026F76B /* AZWheelPickerView */,
+				27F2974C19C469DD0026F76B /* AZWheelPickerViewTests */,
+				27F2972619C469DD0026F76B /* Frameworks */,
+				27F2972519C469DD0026F76B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27F2972519C469DD0026F76B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27F2972419C469DD0026F76B /* AZWheelPickerView.app */,
+				27F2974519C469DD0026F76B /* AZWheelPickerViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27F2972619C469DD0026F76B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27F2972719C469DD0026F76B /* Foundation.framework */,
+				27F2972919C469DD0026F76B /* CoreGraphics.framework */,
+				27F2972B19C469DD0026F76B /* UIKit.framework */,
+				27F2974619C469DD0026F76B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27F2972D19C469DD0026F76B /* AZWheelPickerView */ = {
+			isa = PBXGroup;
+			children = (
+				27F2977819C481050026F76B /* AZBg.png */,
+				27F2977919C481050026F76B /* AZBg@2x.png */,
+				27F2976019C478CB0026F76B /* wheel.png */,
+				27F2976119C478CB0026F76B /* wheel@2x.png */,
+				27F2976619C47B500026F76B /* pointer.png */,
+				27F2976719C47B500026F76B /* pointer@2x.png */,
+				27F2973619C469DD0026F76B /* AppDelegate.h */,
+				27F2973719C469DD0026F76B /* AppDelegate.m */,
+				27F2973919C469DD0026F76B /* Main.storyboard */,
+				27F2973C19C469DD0026F76B /* ViewController.h */,
+				27F2973D19C469DD0026F76B /* ViewController.m */,
+				27F2973F19C469DD0026F76B /* Images.xcassets */,
+				27F2972E19C469DD0026F76B /* Supporting Files */,
+			);
+			path = AZWheelPickerView;
+			sourceTree = "<group>";
+		};
+		27F2972E19C469DD0026F76B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27F2972F19C469DD0026F76B /* AZWheelPickerView-Info.plist */,
+				27F2973019C469DD0026F76B /* InfoPlist.strings */,
+				27F2973319C469DD0026F76B /* main.m */,
+				27F2973519C469DD0026F76B /* AZWheelPickerView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		27F2974C19C469DD0026F76B /* AZWheelPickerViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				27F2975219C469DD0026F76B /* AZWheelPickerViewTests.m */,
+				27F2974D19C469DD0026F76B /* Supporting Files */,
+			);
+			path = AZWheelPickerViewTests;
+			sourceTree = "<group>";
+		};
+		27F2974D19C469DD0026F76B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				27F2974E19C469DD0026F76B /* AZWheelPickerViewTests-Info.plist */,
+				27F2974F19C469DD0026F76B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27F2972319C469DD0026F76B /* AZWheelPickerView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27F2975619C469DD0026F76B /* Build configuration list for PBXNativeTarget "AZWheelPickerView" */;
+			buildPhases = (
+				27F2972019C469DD0026F76B /* Sources */,
+				27F2972119C469DD0026F76B /* Frameworks */,
+				27F2972219C469DD0026F76B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AZWheelPickerView;
+			productName = AZWheelPickerView;
+			productReference = 27F2972419C469DD0026F76B /* AZWheelPickerView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		27F2974419C469DD0026F76B /* AZWheelPickerViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27F2975919C469DD0026F76B /* Build configuration list for PBXNativeTarget "AZWheelPickerViewTests" */;
+			buildPhases = (
+				27F2974119C469DD0026F76B /* Sources */,
+				27F2974219C469DD0026F76B /* Frameworks */,
+				27F2974319C469DD0026F76B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27F2974B19C469DD0026F76B /* PBXTargetDependency */,
+			);
+			name = AZWheelPickerViewTests;
+			productName = AZWheelPickerViewTests;
+			productReference = 27F2974519C469DD0026F76B /* AZWheelPickerViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27F2971C19C469DD0026F76B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Albert Zhang";
+				TargetAttributes = {
+					27F2974419C469DD0026F76B = {
+						TestTargetID = 27F2972319C469DD0026F76B;
+					};
+				};
+			};
+			buildConfigurationList = 27F2971F19C469DD0026F76B /* Build configuration list for PBXProject "AZWheelPickerView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 27F2971B19C469DD0026F76B;
+			productRefGroup = 27F2972519C469DD0026F76B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27F2972319C469DD0026F76B /* AZWheelPickerView */,
+				27F2974419C469DD0026F76B /* AZWheelPickerViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		27F2972219C469DD0026F76B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27F2976419C478CB0026F76B /* wheel@2x.png in Resources */,
+				27F2974019C469DD0026F76B /* Images.xcassets in Resources */,
+				27F2976219C478CB0026F76B /* wheel.png in Resources */,
+				27F2973219C469DD0026F76B /* InfoPlist.strings in Resources */,
+				27F2977C19C481050026F76B /* AZBg@2x.png in Resources */,
+				27F2973B19C469DD0026F76B /* Main.storyboard in Resources */,
+				27F2976A19C47B500026F76B /* pointer@2x.png in Resources */,
+				27F2976819C47B500026F76B /* pointer.png in Resources */,
+				27F2977A19C481050026F76B /* AZBg.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27F2974319C469DD0026F76B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27F2975119C469DD0026F76B /* InfoPlist.strings in Resources */,
+				27F2976319C478CB0026F76B /* wheel.png in Resources */,
+				27F2976519C478CB0026F76B /* wheel@2x.png in Resources */,
+				27F2977D19C481050026F76B /* AZBg@2x.png in Resources */,
+				27F2977B19C481050026F76B /* AZBg.png in Resources */,
+				27F2976B19C47B500026F76B /* pointer@2x.png in Resources */,
+				27F2976919C47B500026F76B /* pointer.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27F2972019C469DD0026F76B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27F2973E19C469DD0026F76B /* ViewController.m in Sources */,
+				27F2973819C469DD0026F76B /* AppDelegate.m in Sources */,
+				27F2973419C469DD0026F76B /* main.m in Sources */,
+				27F2975E19C472040026F76B /* AZWheelPickerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		27F2974119C469DD0026F76B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27F2975319C469DD0026F76B /* AZWheelPickerViewTests.m in Sources */,
+				27F2975F19C472040026F76B /* AZWheelPickerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27F2974B19C469DD0026F76B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 27F2972319C469DD0026F76B /* AZWheelPickerView */;
+			targetProxy = 27F2974A19C469DD0026F76B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		27F2973019C469DD0026F76B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27F2973119C469DD0026F76B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		27F2973919C469DD0026F76B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27F2973A19C469DD0026F76B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		27F2974F19C469DD0026F76B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27F2975019C469DD0026F76B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27F2975419C469DD0026F76B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		27F2975519C469DD0026F76B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		27F2975719C469DD0026F76B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AZWheelPickerView/AZWheelPickerView-Prefix.pch";
+				INFOPLIST_FILE = "AZWheelPickerView/AZWheelPickerView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		27F2975819C469DD0026F76B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AZWheelPickerView/AZWheelPickerView-Prefix.pch";
+				INFOPLIST_FILE = "AZWheelPickerView/AZWheelPickerView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		27F2975A19C469DD0026F76B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AZWheelPickerView.app/AZWheelPickerView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AZWheelPickerView/AZWheelPickerView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AZWheelPickerViewTests/AZWheelPickerViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		27F2975B19C469DD0026F76B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AZWheelPickerView.app/AZWheelPickerView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AZWheelPickerView/AZWheelPickerView-Prefix.pch";
+				INFOPLIST_FILE = "AZWheelPickerViewTests/AZWheelPickerViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27F2971F19C469DD0026F76B /* Build configuration list for PBXProject "AZWheelPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27F2975419C469DD0026F76B /* Debug */,
+				27F2975519C469DD0026F76B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27F2975619C469DD0026F76B /* Build configuration list for PBXNativeTarget "AZWheelPickerView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27F2975719C469DD0026F76B /* Debug */,
+				27F2975819C469DD0026F76B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27F2975919C469DD0026F76B /* Build configuration list for PBXNativeTarget "AZWheelPickerViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27F2975A19C469DD0026F76B /* Debug */,
+				27F2975B19C469DD0026F76B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27F2971C19C469DD0026F76B /* Project object */;
+}
