@@ -11,5 +11,5 @@ A spin wheel control for selecting something.
 2. Set `wheelImage`
 3. Set `numberOfSectors`
 4. Set `wheelInitialRotation` if needed
-5. Add target for event `UIControlEventValueChanged` to monitoring the `selectedIndex` change
+5. Add target for event `UIControlEventValueChanged` to monitor the `selectedIndex` change
 
