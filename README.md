@@ -1,5 +1,7 @@
 # AZWheelPickerView
 
+![Screenshot](http://landinggearup.com/download/image/AZWheelPickerView.jpg)
+
 [![CI Status](http://img.shields.io/travis/albert-zhang/AZWheelPickerView.svg?style=flat)](https://travis-ci.org/albert-zhang/AZWheelPickerView)
 [![Version](https://img.shields.io/cocoapods/v/AZWheelPickerView.svg?style=flat)](http://cocoadocs.org/docsets/AZWheelPickerView)
 [![License](https://img.shields.io/cocoapods/l/AZWheelPickerView.svg?style=flat)](http://cocoadocs.org/docsets/AZWheelPickerView)
