@@ -305,7 +305,23 @@
 	[self setSelectedIndex:i animated:animated];
 }
 
+#pragma mark -
 
+- (CGSize)sizeThatFits:(CGSize)size{
+	CGSize sz = [super sizeThatFits:size];
+	if(self.wheelImage){
+		sz = self.wheelImage.size;
+	}
+	return sz;
+}
+
+- (CGSize)intrinsicContentSize{
+	CGSize sz = CGSizeZero;
+	if(self.wheelImage){
+		sz = self.wheelImage.size;
+	}
+	return sz;
+}
 
 
 @end
