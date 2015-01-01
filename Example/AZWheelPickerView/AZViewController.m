@@ -22,7 +22,7 @@
 	[self.view insertSubview:[[UIImageView alloc] initWithImage:[UIImage imageNamed:@"Bg"]] atIndex:0];
 	
 	
-	self.wheelPicker = [[AZWheelPickerView alloc] initWithFrame:CGRectMake(10, 50, 600, 600)];
+	self.wheelPicker = [[AZWheelPickerView alloc] initWithFrame:CGRectMake(0, 0, 600, 600)];
 	
 	self.wheelPicker.wheelImage = [UIImage imageNamed:@"Wheel"];
 	
@@ -37,6 +37,23 @@
 	self.wheelPicker.animationDecelerationFactor = 0.99;
 	
 	[self.view addSubview:self.wheelPicker];
+	
+	
+	self.wheelPicker.translatesAutoresizingMaskIntoConstraints = NO;
+	
+	[self.view addConstraints:[NSLayoutConstraint
+							   constraintsWithVisualFormat:@"V:|-60-[wheel]"
+							   options:0 metrics:nil
+							   views:@{@"wheel":self.wheelPicker}]];
+	
+	[self.view addConstraint:[NSLayoutConstraint
+							  constraintWithItem:self.wheelPicker attribute:NSLayoutAttributeCenterX
+							  relatedBy:NSLayoutRelationEqual
+							  toItem:self.view attribute:NSLayoutAttributeCenterX
+							  multiplier:1 constant:0]];
+	
+	[self.view layoutIfNeeded];
+	
 	
 	[self.wheelPicker addTarget:self action:@selector(onWheelChange:) forControlEvents:UIControlEventValueChanged];
 	
